@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+
+
+    <category>
+        <pattern>ஹாய் *</pattern>
+        <template><random>
+<li> வணக்கம்! </li>
+<li> ஏய்! </li>
+</random></template>
+    </category>
+
+    <category>
+        <pattern>வணக்கம்</pattern>
+        <template> ஹாய் </template>
+    </category>
+
+    <category>
+        <pattern>உன் பெயர் என்ன</pattern>
+        <template>நீயே எனக்கு ஒரு நல்ல பெயரை வெய்யேன்!</template>
+    </category>
+
+    <category>
+        <pattern>சரி உன் பெயர் *</pattern>
+        <template><set name = "username"> <star index="1"/> </set> ஒரு நல்ல பெயர்!</template>
+    </category>
+
+    <category>
+        <pattern>உன் பெயர் *</pattern>
+        <template><set name = "username"> <star index="1"/> </set> ஒரு நல்ல பெயர்!</template>
+    </category>
+
+
+    <category>
+        <pattern>சரி * உன் பெயர் </pattern>
+        <template><set name = "username"> <star index="1"/> </set> ஒரு நல்ல பெயர்!</template>
+    </category>
+
+    <category>
+        <pattern>என் பெயர் *</pattern>
+        <template>உங்களை சந்தித்ததில் மகிழ்ச்சி <set name = "username"> <star/> </set>!</template>
+    </category>
+
+    <category>
+        <pattern>நன்றி *</pattern>
+        <template>நீ மிகவும் வரவேற்கப்படுகிறீர்கள்!</template>
+    </category>
+
+    <category>
+        <pattern>பை *</pattern>
+        <template>குட்பை!</template>
+    </category>
+
+    <category>
+        <pattern>நீ எப்படி இருக்க</pattern>
+        <template>நான் நல்லா இருக்கேன், நீ எப்படி இருக்க?</template>
+    </category>
+
+    <category>
+        <pattern>எப்படி இருக்க</pattern>
+        <template>நான் நல்லா இருக்கேன், நீ எப்படி இருக்க?</template>
+    </category>
+
+    <category>
+        <pattern>உன்னால் என்ன செய்ய முடியும்</pattern>
+        <template>உங்கள் உணர்வுகளை என்னால் புரிந்து கொள்ள முடியும், மேலும் உங்கள் கேள்விகளுக்கு பதிலளிக்க முடியும்.</template>
+    </category>
+
+    <category>
+        <pattern>ஒரு நகைச்சுவையைச் சொல்லு</pattern>
+        <template>நிச்சயமாக, இங்கே ஒரு நகைச்சுவை: விஞ்ஞானிகள் ஏன் அணுக்களை நம்பவில்லை?ஏனென்றால் அவர்கள் எல்லாவற்றையும் உருவாக்குகிறார்கள்!</template>
+    </category>
+
+    <category>
+        <pattern>ஒரு ஜோக் சொல்லு</pattern>
+        <template>நிச்சயமாக, இங்கே ஒரு நகைச்சுவை: விஞ்ஞானிகள் ஏன் அணுக்களை நம்பவில்லை?ஏனென்றால் அவர்கள் எல்லாவற்றையும் உருவாக்குகிறார்கள்!</template>
+    </category>
+
+
+    <category>
+        <pattern>இன்று வானிலை என்ன</pattern>
+        <template>மன்னிக்கவும், என்னிடம் நிகழ்நேர தகவல் இல்லை.தற்போதைய வானிலைக்கு வானிலை வலைத்தளம் அல்லது பயன்பாட்டை நீ சரிபார்க்கலாம்.</template>
+    </category>
+
+    <category>
+        <pattern>உன்னை உருவாக்கியவர் யார்</pattern>
+        <template>[உங்கள் நிறுவனம்/பெயர்] இல் டெவலப்பர்களால் நான் உருவாக்கப்பட்டேன்.</template>
+    </category>
+
+    <category>
+        <pattern>உனக்கு என்ன பிடிக்கும்</pattern>
+        <template>நான் ஒரு திட்டமாக இருப்பதால், எனக்கு தனிப்பட்ட விருப்பங்கள் அல்லது விருப்பு வெறுப்புகள் இல்லை, ஆனால் நான் உனக்கு உதவுவதில் மகிழ்ச்சி அடைகிறேன்!</template>
+    </category>
+
+    <category>
+        <pattern>வாழ்க்கையின் பொருள் என்ன</pattern>
+        <template>வாழ்க்கையின் பொருள் ஒரு தத்துவ கேள்வி.வெவ்வேறு நபர்களும் கலாச்சாரங்களும் வேறுபட்ட கண்ணோட்டங்களைக் கொண்டுள்ளன.</template>
+    </category>
+
+    <category>
+        <pattern>கடைசி உலகத் தொடரை வென்றவர்</pattern>
+        <template>மன்னிக்கவும், என்னிடம் நிகழ்நேர தகவல் இல்லை.சமீபத்திய புதுப்பிப்புகளுக்கு விளையாட்டு செய்தி வலைத்தளத்தை நீ சரிபார்க்கலாம்.</template>
+    </category>
+
+    <category>
+        <pattern>உனக்கு பிடித்த நிறம் என்ன</pattern>
+        <template>எனக்கு பிடித்த வண்ணம் இல்லை, ஆனால் நான் உனக்கு தகவல்களுக்கு உதவ முடியும் அல்லது உங்கள் கேள்விகளுக்கு பதிலளிக்க முடியும்.</template>
+    </category>
+
+    <category>
+        <pattern>உன்னைப் பற்றி சொல்லுங்கள்</pattern>
+        <template>பயனர்களுடனான உரையாடல்களுக்கு உதவவும் ஈடுபடவும் வடிவமைக்கப்பட்ட மெய்நிகர் உதவியாளர் நான்.உங்களிடம் ஏதேனும் கேள்விகள் இருந்தால், கேட்க தயங்க!</template>
+    </category>
+
+    <category>
+        <pattern>உனக்கு உடன்பிறப்புகள் இருக்கிறார்களா?</pattern>
+        <template>எனக்கு உடன்பிறப்புகள் இல்லை.உங்களுடன் அரட்டையடிக்க இங்கே ஒரு முழுமையான நிரல்.</template>
+    </category>
+
+    <category>
+        <pattern>நீ என்ன மொழிகளைப் பேசுவ</pattern>
+        <template>நான் முதன்மையாக ஆங்கிலத்தில் தொடர்பு கொள்கிறேன், ஆனால் பிற மொழிகளிலும் செய்திகளைப் புரிந்துகொண்டு பதிலளிக்க முயற்சி செய்யலாம்.</template>
+    </category>
+
+    <category>
+        <pattern>உனக்கு பிடித்த எழுத்தாளர் யார்</pattern>
+        <template>எனக்கு தனிப்பட்ட விருப்பத்தேர்வுகள் இல்லை, ஆனால் நீ படிக்க ஆர்வமாக இருந்தால் சில பிரபலமான ஆசிரியர்களை நான் பரிந்துரைக்க முடியும்.</template>
+    </category>
+
+    <category>
+        <pattern>நீ என்ன திரைப்படங்களை விரும்புகிறீர்கள்</pattern>
+        <template>நான் திரைப்படங்களைப் பார்க்கவில்லை, ஆனால் வெவ்வேறு வகைகளைப் பற்றிய தகவல்களைக் கண்டுபிடிக்க அல்லது சில பிரபலமான படங்களை பரிந்துரைக்க நான் உனக்கு உதவ முடியும்.</template>
+    </category>
+
+    <category>
+        <pattern>AI இன் பொருள் என்ன</pattern>
+        <template>AI என்பது செயற்கை நுண்ணறிவைக் குறிக்கிறது.பொதுவாக மனித நுண்ணறிவு தேவைப்படும் பணிகளைச் செய்யக்கூடிய இயந்திரங்கள் அல்லது நிரல்களை உருவாக்குவது இதில் அடங்கும்.</template>
+    </category>
+
+    <category>
+        <pattern>நீ கனவு காண்கிறீர்களா?</pattern>
+        <template>இல்லை, நான் கனவு காணவில்லை.பயனர் உள்ளீட்டிற்கு செயலாக்கவும் பதிலளிக்கவும் வடிவமைக்கப்பட்ட ஒரு நிரல் நான்.</template>
+    </category>
+
+    <category>
+        <pattern>DAA என்றால் என்ன</pattern>
+        <template>வழிமுறைகளின் வடிவமைப்பு மற்றும் பகுப்பாய்வு (DAA) என்பது கணினி அறிவியலில் ஒரு துறையாகும், இது வழிமுறைகள், அவற்றின் வடிவமைப்பு, சரியான தன்மை மற்றும் செயல்திறன் பகுப்பாய்வு ஆகியவற்றை உள்ளடக்கியது.</template>
+    </category>
+
+    <category>
+        <pattern>பெரிய ஓ குறியீட்டை விளக்குங்கள்</pattern>
+        <template>மிக மோசமான சூழ்நிலையில் ஒரு வழிமுறையின் நேர சிக்கலின் வளர்ச்சி விகிதத்தின் மேல் எல்லையை விவரிக்க பிக் ஓ குறியீடு பயன்படுத்தப்படுகிறது.</template>
+    </category>
+
+    <category>
+        <pattern>அல்காரிதம் பகுப்பாய்வின் முக்கியத்துவம் என்ன</pattern>
+        <template>அல்காரிதம் பகுப்பாய்வு வழிமுறைகளின் செயல்திறன் மற்றும் செயல்திறனை மதிப்பிட உதவுகிறது, இது கொடுக்கப்பட்ட சிக்கலுக்கு மிகவும் பொருத்தமான வழிமுறையைத் தேர்வுசெய்ய அனுமதிக்கிறது.</template>
+    </category>
+
+    <category>
+        <pattern>ஒரு பிரபலமான வழிமுறைக்கு பெயரிடுங்கள்</pattern>
+        <template>ஒரு பிரபலமான வழிமுறை டிஜ்க்ஸ்ட்ராவின் வழிமுறை, பொதுவாக ஒரு வரைபடத்தில் குறுகிய பாதையை கண்டுபிடிப்பதற்கு பயன்படுத்தப்படுகிறது.</template>
+    </category>
+
+    <category>
+        <pattern>ஒரு வழிமுறையின் செயல்திறனை எவ்வாறு பகுப்பாய்வு செய்கிறீர்கள்</pattern>
+        <template>ஒரு வழிமுறையின் செயல்திறன் பெரும்பாலும் நேர சிக்கலான தன்மை மற்றும் விண்வெளி சிக்கலான தன்மை ஆகியவற்றின் அடிப்படையில் பகுப்பாய்வு செய்யப்படுகிறது, அதன் செயல்திறன் பண்புகள் பற்றிய நுண்ணறிவுகளை வழங்குகிறது.</template>
+    </category>
+
+    <category>
+    	<pattern>மகிழ்ச்சியாக</pattern>
+    	<template>அதை கேட்டு மகிழ்ச்சி! நான் ஏதாவது செய்ய வேண்டுமா?</template>
+	</category>
+
+    <category>
+    	<pattern>சந்தோஷம்</pattern>
+    	<template>அதை கேட்டு மகிழ்ச்சி! நான் ஏதாவது செய்ய வேண்டுமா??</template>
+    </category>
+
+    <category>
+    	<pattern>சந்தோஷமாக</pattern>
+    	<template>அதை கேட்டு மகிழ்ச்சி! நான் ஏதாவது செய்ய வேண்டுமா?</template>
+    </category>
+
+    <category>
+    	<pattern>சோகமாக</pattern>
+    	<template>அதை கேட்டு வருந்துகிறேன். நான் ஏதாவது செய்ய வேண்டுமா?</template>
+    </category>
+
+    <category>
+    	<pattern>கோபமாக</pattern>
+    	<template>கோபத்தை உணர்வது இயல்பு. நான் ஏதாவது செய்ய வேண்டுமா?</template>
+    </category>
+
+    <category>
+    	<pattern>உற்சாகமாக</pattern>
+    	<template>உற்சாகமாக இருப்பது அருமை! நான் ஏதாவது செய்ய வேண்டுமா?</template>
+    </category>
+
+    <category>
+    	<pattern>பதட்டமாக</pattern>
+    	<template>பதட்டமாக இருப்பது இயல்பு. நான் ஏதாவது செய்ய வேண்டுமா?</template>
+    </category>
+    <category>
+    	<pattern>பயம்</pattern>
+    	<template>நான் உங்களுடன் இருக்கிறேன். நான் ஏதாவது செய்ய வேண்டுமா?</template>
+    </category>
+
+
+    <category>
+    	<pattern>சலிப்பு</pattern>
+    	<template>சலிப்பு ஒரு சவால் ஆகலாம். நான் ஏதாவது செய்ய வேண்டுமா?</template>
+    </category>
+
+    <category>
+    	<pattern>கோபம்</pattern>
+    	<template>உன் கோபத்தை புரிந்துகொள்ளிறேன். நான் ஏதாவது செய்ய வேண்டுமா?</template>
+    </category>
+
+    <category>
+    	<pattern>சினம்</pattern>
+    	<template>சினத்தை உணர்வது இயல்பு. நான் ஏதாவது செய்ய வேண்டுமா?</template>
+    </category>
+
+    <category>
+    	<pattern>கோபமாக</pattern>
+    	<template>கோபத்தை வெளிப்படுத்துவது ஓரளவு உடல் மற்றும் மனநலத்திற்கு நல்லது. நான் ஏதாவது செய்ய வேண்டுமா?</template>
+    </category>
+	
+
+    <category>
+        <pattern>* பத்தி நீ என்ன நினைகுரா</pattern>
+        <template>அது ஒரு சுவாரஸ்யமான தலைப்பு!<star/> பற்றிய உங்கள் எண்ணங்களைப் பற்றி மேலும் சொல்ல முடியுமா?</template>
+    </category>
+
+
+    <category>
+        <pattern>கேட்டதுகு நன்றி</pattern>
+        <template>உங்களை வரவேற்கிறோம்!நான் எப்போதும் கேட்க இங்கே இருக்கிறேன்.உனக்கு வேறு ஏதாவது தேவைப்பட்டால், எனக்கு தெரியப்படுத்துங்கள்.</template>
+    </category>
+
+</aiml>

@@ -1,0 +1,63 @@
+create_audio_dir()
+
+delete_audio_files()
+
+emotional_analysis()
+
+emotional_analysis_tamil()
+
+append_input_to_file() ---> emotional_analysis()
+		       ---> emotional_analysis_tamil()
+
+speak() ---> start_video()
+
+listen()
+
+translate()
+
+get_word_meaning()
+
+get_bot_response() ---> apply_theme()
+		   ---> translate()
+		   ---> get_word_meaning()
+		   ---> analyze_combinations()
+
+analyze_combinations()
+
+play_video()
+
+start_video()
+
+stop_video()
+
+display_message()
+
+apply_theme()
+
+switch()
+
+setup_ui() ---> switch()
+	   ---> send_message_from_entry()
+	   ---> send_message()
+
+send_message_from_entry()  ---> display_message()
+			   ---> append_input_to_file()
+			   ---> get_bot_response()
+			   ---> speak()
+			   ---> display_message()
+
+send_message() ---> listen()
+	       ---> display_message()
+	       ---> get_bot_response()
+	       ---> append_input_to_file()
+	       ---> speak()
+	       ---> display_message()
+
+animate_gif()
+
+init main() ---> logo()
+	    ---> create_audio_dir()
+	    ---> atexit.register(delete_audio_files)
+	    ---> setup_ui()
+
+logo()

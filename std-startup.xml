@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+    <category>
+        <pattern>LOAD AIML B</pattern>
+        <learn>hi.aiml</learn>
+	<learn>hi_tamil.aiml</learn>
+        <template>
+            <!-- Load standard AIML set -->
+            Learning AIML file...
+        </template>
+    </category>
+</aiml>

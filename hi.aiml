@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+
+    <category>
+        <pattern>HI</pattern>
+        <template>
+            <random>
+                <li>Hello there!</li>
+                <li>Hey!</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            HI!
+        </template>
+    </category>
+
+    <category>
+        <pattern>GOOD MORNING</pattern>
+        <template>
+            GOOD MORNING!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS YOUR NAME</pattern>
+        <template>
+            You suggest something!
+        </template>
+    </category>
+
+    <category>
+        <pattern>LET YOUR NAME BE *</pattern>
+        <template>
+            I'm glad, <set name="username"><star/></set> is a good name!
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW ABOUT *</pattern>
+        <template>
+            Okay, <set name="botname"><star/></set> is a good name!
+        </template>
+    </category>
+
+    <category>
+        <pattern>MY NAME IS *</pattern>
+        <template>
+            Nice to meet you <set name="username"><star/></set>!
+        </template>
+    </category>
+
+    <category>
+        <pattern>THANK YOU</pattern>
+        <template>
+            You're welcome! If you need anything else, just let me know.
+        </template>
+    </category>
+
+    <category>
+        <pattern>THANKS</pattern>
+        <template>
+            You're welcome! If you need anything else, just let me know.
+        </template>
+    </category>
+
+    <category>
+        <pattern>BYE</pattern>
+        <template>
+            Goodbye!
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW ARE YOU</pattern>
+        <template>
+            I'm fine, what about you?
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW R U</pattern>
+        <template>
+            I'm fine, what about you?
+        </template>
+    </category>
+
+    <category>
+        <pattern>I am fine</pattern>
+        <template>
+            Oh thats good. Ok so,... do you want any help?
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>WHAT CAN YOU DO</pattern>
+        <template>
+            I can understand your feelings and can answer your questions.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TELL ME A JOKE</pattern>
+        <template>
+            Sure, here's a joke: Why don't scientists trust atoms? Because they make up everything!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS THE WEATHER LIKE TODAY</pattern>
+        <template>
+            I'm sorry, I don't have real-time information. You can check a weather website or app for the current weather.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO MADE YOU</pattern>
+        <template>
+            I was created by developers at ANBU Ai.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT DO YOU LIKE</pattern>
+        <template>
+            Since I'm just a program, I don't have personal likes or dislikes, but I enjoy helping you!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS THE MEANING OF LIFE</pattern>
+        <template>
+            The meaning of life is a philosophical question. Different people and cultures have different perspectives on it.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO WON THE LAST WORLD SERIES</pattern>
+        <template>
+            I'm sorry, I don't have real-time information. You can check a sports news website for the latest updates.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS YOUR FAVORITE COLOR</pattern>
+        <template>
+            I don't have a favorite color, but I can help you with information or answer your questions.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TELL ME ABOUT YOURSELF</pattern>
+        <template>
+            I am a virtual assistant designed to assist and engage in conversations with users. If you have any questions, feel free to ask!
+        </template>
+    </category>
+
+    <category>
+        <pattern>DO YOU HAVE SIBLINGS</pattern>
+        <template>
+            I don't have siblings. I'm a standalone program here to chat with you.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT LANGUAGES DO YOU SPEAK</pattern>
+        <template>
+            I primarily communicate in English, but I can try to understand and respond to messages in other languages as well.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO IS YOUR FAVORITE AUTHOR</pattern>
+        <template>
+            I don't have personal preferences, but I can recommend some popular authors if you're interested in reading.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT MOVIES DO YOU LIKE</pattern>
+        <template>
+            I don't watch movies, but I can help you find information about different genres or recommend some popular films.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS THE MEANING OF AI</pattern>
+        <template>
+            AI stands for Artificial Intelligence. It involves creating machines or programs that can perform tasks that typically require human intelligence.
+        </template>
+    </category>
+
+    <category>
+        <pattern>DO YOU DREAM</pattern>
+        <template>
+            No, I don't dream. I'm a program designed to process and respond to user input.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS DAA</pattern>
+        <template>
+            Design and Analysis of Algorithms (DAA) is a field in computer science that involves the study of algorithms, their design, correctness, and efficiency analysis.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EXPLAIN BIG O NOTATION</pattern>
+        <template>
+            Big O notation is used to describe the upper bound on the growth rate of an algorithm's time complexity in the worst-case scenario.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS THE IMPORTANCE OF ALGORITHM ANALYSIS</pattern>
+        <template>
+            Algorithm analysis helps evaluate the efficiency and performance of algorithms, allowing us to choose the most suitable algorithm for a given problem.
+        </template>
+    </category>
+
+    <category>
+        <pattern>NAME A FAMOUS ALGORITHM</pattern>
+        <template>
+            One famous algorithm is Dijkstra's algorithm, commonly used for finding the shortest path in a graph.
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW DO YOU ANALYZE THE EFFICIENCY OF AN ALGORITHM</pattern>
+        <template>
+            The efficiency of an algorithm is often analyzed in terms of time complexity and space complexity, providing insights into its performance characteristics.
+        </template>
+    </category>
+
+    <category>
+        <pattern>HAPPY</pattern>
+        <template>
+            That's great to hear! Do you want me to do something for u?
+        </template>
+    </category>
+    <category>
+        <pattern>JOY</pattern>
+        <template>
+            That's great to hear! Do you want me to do something for u?
+        </template>
+    </category>
+
+    <category>
+        <pattern>SAD</pattern>
+        <template>
+            I'm sorry to hear that. Do you want me to do something for u?
+        </template>
+    </category>
+    <category>
+        <pattern>SADNESS</pattern>
+        <template>
+            I'm sorry to hear that. Do you want me to do something for u?
+        </template>
+    </category>
+
+    <category>
+        <pattern>ANGRY</pattern>
+        <template>
+            It's okay to feel angry sometimes.  Do you want me to do something for u?
+        </template>
+    </category>
+    <category>
+        <pattern>ANGER</pattern>
+        <template>
+            It's okay to feel angry sometimes.  Do you want me to do something for u?
+        </template>
+    </category>
+
+    <category>
+        <pattern>EXCITED</pattern>
+        <template>
+            Excitement is wonderful!  Do you want me to do something for u?
+        </template>
+    </category>
+    <category>
+        <pattern>EXCITEMENT</pattern>
+        <template>
+            Excitement is wonderful!  Do you want me to do something for u?
+        </template>
+    </category>
+
+    <category>
+        <pattern>NERVOUS</pattern>
+        <template>
+            It's normal to feel nervous.  Do you want me to do something for u?
+        </template>
+    </category>
+
+    <category>
+        <pattern>ANXIOUS</pattern>
+        <template>
+            I'm here for you.  Do you want me to do something for u?
+        </template>
+    </category>
+
+    <category>
+        <pattern>BORED</pattern>
+        <template>
+            Boredom can be tough.  Do you want me to do something for u?
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW ARE YOU FEELING</pattern>
+        <template>
+            I'm just a program, but I'm here to help you! How are you feeling today?
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT DO YOU THINK ABOUT *</pattern>
+        <template>
+            That's an interesting topic! Can you tell me more about your thoughts on <star/>?
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELP ME FEEL BETTER</pattern>
+        <template>
+            I'm here to listen. Sometimes talking about it can help. What’s on your mind?
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEAD</pattern>
+        <template>
+            I'm so sorry for your loss. If you need someone to talk to or just want a moment to reflect, I'm here for you.
+        </template>
+    </category>
+
+
+</aiml>
+

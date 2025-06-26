@@ -1,0 +1,5 @@
+youtube channel: "aiguy" 
+image generation: GravityWrits --> DeFoocus --> Automatic1111 --> faceswap (for swapping face in a photo)
+Video generation: LumaLabs --> RunwayML --> Wondershare Virbo (lipsync)
+voice generation: Elevenlabs --> Play.ht
+Lipsync : Pikalabs --> RunwayML
